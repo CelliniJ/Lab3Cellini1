@@ -23,6 +23,7 @@ namespace Lab3Cellini
                 if(num <=0 || num >= 101)
                 {
                     Console.WriteLine("Please try entering a positive integer between 1 and 100, " + username + ".");
+                    continue;
                 }
 
                 if (num % 2 == 0 && num >= 1 && num < 25)
